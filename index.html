@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <!-- General -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Timon Schroth">
+    <title>Timon Schroth · WebByte Studio</title>
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="./src/img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./src/img/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="./src/img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Timon Schroth" />
+    <link rel="manifest" href="./src/img/favicons/site.webmanifest" />
+
+    <!-- Import -->
+
+    <link rel="stylesheet" href="./src/css/@font-face.css" type="text/css">
+    <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+    <script src="./src/js/script.js" type="text/javascript" defer></script>
+
+    <!-- Google tag (gtag.js) -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZFXZ4GKQ7J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZFXZ4GKQ7J');
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Timon Schroth",
+      "url": "https://timonschroth.de",
+      "image": "https://timonschroth.de/src/img/avatar.png",
+      "jobTitle": "Web & App Developer & Founder of WebByte Studio",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "WebByte Studio",
+        "url": "https://timonschroth.de"
+      },
+      "sameAs": [
+        "https://www.instagram.com/timon.sh",
+        "https://github.com/timon-sh",
+      ],
+      "gender": "Male",
+      "birthDate": "2010-06-06", 
+      "nationality": "German",
+      "knowsAbout": [
+        "Web Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "UI/UX Design"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Max-Planck-Gymnasium-Göttingen"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lange Hecke 11",
+        "addressLocality": "Klein Lengden",
+        "addressRegion": "Niedersachsen",
+        "postalCode": "37130",
+        "addressCountry": "Germany"
+      }
+    }
+    </script>
+
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+
+    <section id="nav-area">
+
+        <nav id="navigation">
+
+            <a href="#" class="home active" onclick="scroll_to_id('nav-area', 'home')">Home</a>
+            <span>·</span>
+            <a href="#" class="projects" onclick="scroll_to_id('project-overview', 'projects')">Projekte</a>
+            <span>·</span>
+            <a href="#" class="about-me" onclick="scroll_to_id('about-me', 'about-me')">Über mich</a>
+            <div></div>
+
+            <button type="button" onclick="scroll_to_id('support')">
+                Support
+            </button>
+
+        </nav>
+
+    </section>
+
+    <!-- Main -->
+
+    <main>
+
+        <!-- Introduction -->
+
+        <header id="introduction">
+
+            <div>
+
+                <h1>Hallo, ich bin <strong>𝐓𝐢𝐦𝐨𝐧</strong></h1>
+                <div>
+                    <img src="./src/img/profile.png" alt="Profilbild von Timon Schroth">
+                    <div></div>
+                </div>
+
+            </div>
+
+            <div>
+
+                <h1>Creator von <strong>𝐖𝐞𝐛𝐁𝐲𝐭𝐞 𝐒𝐭𝐮𝐝𝐢𝐨</strong></h1>
+                <img src="./src/img/webbytestudio-small.png" alt="Logo von WebByte Studio">
+
+            </div>
+
+            <div>
+
+                <h1>Frontend Web&App</h1>
+                <img src="./src/img/coding.png" alt="Bild von Quellcode">
+                <h1><strong>𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</strong></h1>
+
+            </div>
+
+            <p class="important-text">
+                Unter dem Branding WebByte Studio entwickle ich moderne <span class="highlight"> Websites und Web-Apps
+                </span> mit <span class="highlight">HTML, CSS und
+                    JavaScript </span> – mit dem Ziel, <span class="highlight">Design & Funktion</span> zu vereinen und
+                intuitive, hilfreiche <span class="highlight">UI/UX</span> Software zu
+                entwickeln. </p>
+
+            <article>
+
+                <a class="primary-btn" href="mailto:hey@timonschroth.de" target="_blank">
+                    📥 E-Mail
+                </a>
+
+                <a class="secondary-btn" href="https://instagram.com/timon.sh" target="_blank">
+                    Instagram 💬
+                </a>
+
+            </article>
+
+        </header>
+
+        <!-- Main Project Overview -->
+
+        <section id="project-overview">
+
+            <h1>Projekte</h1>
+
+            <section class="mshift">
+
+                <div>
+
+                    <img src="./src/img/memory-shift-transparent.png" alt="Memory Shift App Icon">
+                    <h1>
+                        Memory Shift
+                    </h1>
+                    <p>
+                        Memory Shift ist ein innovativer und moderner Vokabeltrainer. Er kombiniert smartes Active
+                        Recalling, ein intuitives Karteikarten-System, leistungsstarke Statistiken, praktische
+                        Prüfungsverfolgung und einen integrierten Theme Shop. Bringe dein Vokabellernen auf ein neues
+                        Level!
+                    </p>
+
+                    <a href="https://memoryshift.app?ref=timonschroth" target="_blank">Try it 🗃️</a>
+
+                </div>
+
+                <article>
+                    <img src="./src/vid/mshift-demo.gif" alt="Memory Shift App Demo">
+                </article>
+
+            </section>
+
+            <section class="dunkle-geschichten">
+
+                <div>
+
+                    <img src="./src/img/magnus.svg" alt="Logo von Magnus Schroth">
+                    <h1>
+                        Illustrationswetttbewerb <br> Dunkle Geschichten
+                    </h1>
+                    <p>
+                        Der Illustrationswettbewerb mit dem Motto „Dunkle Geschichten“ wurde 2024/25 von Magnus Schroth
+                        organisiert. Die Website zum Wettbewerb habe ich erstellt.
+                    </p>
+
+                    <a href="https://illustrationswettbewerb-dunkle-geschichten.com?ref=timonschroth.de"
+                        target="_blank">Entdecken 🎨</a>
+
+                </div>
+
+                <article class="responsive-exclusion">
+                    <img src="./src/img/dunkle-geschichten-banner.png" alt="Illustrationswettbewerb Dunkle Geschichten"
+                        class="responsive-exclusion">
+                    <img src="./src/img/dunkle-geschichten-banner-horizontal.png"
+                        alt="Illustrationswettbewerb Dunkle Geschichten" class="responsive-exclusion">
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- Certificates-->
+
+        <section id="certificates">
+
+            <h1>Zertifikate</h1>
+
+            <div class="container">
+                <div class="row">
+                    <button class="col-3" onclick="preview_image('view', './src/img/certificates/html+css.png')">
+                        <img src="./src/img/html+css.svg" alt="Udemy Logo">
+                        <h1>Der ultimative HTML5 und CSS3 Komplettkurs</h1>
+                        <span>&nearr; View</span>
+                    </button>
+                    <button class="col-3" onclick="preview_image('view', './src/img/certificates/js.png')">
+                        <img src="./src/img/js.svg" alt="Udemy Logo">
+                        <h1>Der ultimative JavaScript Komplettkurs</h1>
+                        <span>&nearr; View</span>
+                    </button>
+                    <button class="col-3"
+                        onclick="preview_image('view', './src/img/certificates/würdigungsveranstaltung.png')">
+                        <img src="./src/img/mpgg.svg" alt="MPGG">
+                        <h1>Würdigung - Max-Planck-Gymnasium Göttingen</h1>
+                        <span>&nearr; View</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About me -->
+
+        <section id="about-me">
+
+            <h1>Über mich</h1>
+
+            <p class="important-text">
+
+                Ich bin <span class="highlight">Timon</span>, 14 Jahre alt und wohne in Klein Lengden. Ich gehe auf das
+                <span class="highlight">Max-Planck-Gymnasium</span> in
+                Göttingen und besuche dort die 9. Klasse.
+
+                Unter meinem Branding WebByte Studio entwickle ich moderne und innovative <span
+                    class="highlight">Web-Apps und Websites</span>. Dabei
+                verfolge ich das Ziel, <span class="highlight">smarte Funktionen mit intuitivem UI/UX-Design</span> zu
+                verknüpfen.
+
+                Während des Corona-Lockdowns habe ich begonnen, verschiedene Technologien zu lernen, um diesem Interesse
+                nachzugehen, und anschließend mein Wissen stetig weiter ausgebaut.
+
+                Hauptsächlich arbeite ich mit <span class="highlight">HTML, CSS und JavaScript</span>. Eines meiner
+                wichtigsten Projekte ist die
+                Web-App Memory Shift, ein moderner Vokabeltrainer, den ich in Zusammenarbeit mit dem MPGG entwickelt
+                habe.
+
+                In meiner Freizeit beschäftige ich mich zudem gerne mit <span class="highlight">Schach und spiele
+                    Klavier</span>.
+
+            </p>
+
+        </section>
+
+        <div id="support">
+
+            <h1>Unterstütze mich!</h1>
+
+            <p>
+                Projekte wie Memory Shift sind mit viel Aufwand und hohen Kosten verbunden. Wenn du mich und meine
+                Projekte unterstützen möchtest, kannst du gerne einen kleinen Betrag spenden. Nur so kann ich die
+                Projekte weiterhin betreiben und weiterentwickeln.
+                <br>
+                Vielen Dank!
+            </p>
+
+            <a href="https://buymeacoffee.com/timonschroth" target="_blank" class="primary-btn">☕ Buymeacoffee</a>
+
+            <a href="https://paypal.me/heytimon" target="_blank" class="secondary-btn">❤️ PayPal</a>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <span>Timon Schroth</span>
+        <a href="./impressum.html">Impressum</a>
+
+    </footer>
+
+    <div id="large-image-preview">
+
+        <img>
+        <button type="button" onclick="preview_image('close')">Close</button>
+
+    </div>
+
+
+</body>
+
+</html>
