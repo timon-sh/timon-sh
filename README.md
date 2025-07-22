@@ -1,9 +1,5 @@
-<!-- Profile Image & Banner -->
-<p align="center">
-  <img src="https://timonschroth.de/src/img/profile.png" alt="profile picture" width="150" style="border-radius: 25px;" />
-</p>
-
-<h1 align="center">Hello, I'm Timon.</h1>
+<h1 align="center">👋 Hello, I'm Timon.</h1>
+<p align="center">TIMON.SH</p>
 
 <p align="center">
   <!-- Tech icons in one row -->
