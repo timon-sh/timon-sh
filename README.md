@@ -16,7 +16,7 @@ Under the name WebByte Studio, I create modern apps and websites that blend intu
 
 ---
 
-### 💬 Get in Touch
+### # Get in Touch
 
 📬 hey@timonschroth.de
 <br>
