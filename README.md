@@ -25,7 +25,7 @@ Unter dem Branding WebByte Studio entwickle ich moderne Websites und Web-Apps mi
 ## 📫 Kontakt
 - Website: [timonschroth.de](https://timonschroth.de)
 - Mail: [hey@timonschroth.de](mailto:hey@timonschroth.de)
-- Instagram [instagram.com/timon.sh](https://instagram.com/timon.sh)
+- Instagram [timon.sh](https://instagram.com/timon.sh)
 
 <br>
 
