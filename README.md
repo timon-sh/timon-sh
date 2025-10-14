@@ -4,12 +4,11 @@
 <h1 align="center" style="font-family: 'Cormorant Garamond', serif; font-size: 3.2rem; font-weight: 900; letter-spacing: 2px; margin-top: 30px; margin-bottom: 0;">👋 Hi, ich bin <span style="font-family: 'Cormorant Garamond', serif; font-weight: 900; font-size: 3.2rem; letter-spacing: 2px;">𝐓𝐢𝐦𝐨𝐧 𝐒𝐜𝐡𝐫𝐨𝐭𝐡</span></h1>
 
 <div align="center" style="margin: 18px 0 18px 0;">
-  <a href="mailto:hey@timonschroth.de"><img src="https://img.shields.io/badge/Email-hey@timonschroth.de-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://instagram.com/timon.sh"><img src="https://img.shields.io/badge/Instagram-timon.sh-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/HTML-222?style=for-the-badge&logo=html5&logoColor=E34F26"/>
   <img src="https://img.shields.io/badge/CSS-222?style=for-the-badge&logo=css3&logoColor=1572B6"/>
   <img src="https://img.shields.io/badge/JavaScript-222?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/Arch-222?style=for-the-badge&logo=arch-linux&logoColor=1793D1"/>
+  <img src="https://img.shields.io/badge/Linux-222?style=for-the-badge&logo=linux&logoColor=FCC624"/>
 </div>
 
 <h3 align="center" style="margin-top: 0;">🚀 Creator von WebByte Studio &nbsp;|&nbsp; 🧑‍💻 Frontend Web & App Entwickler</h3>
@@ -44,14 +43,6 @@ Unter dem Branding <b>WebByte Studio</b> entwickle ich moderne Websites und PWAs
 ---
 
 ## 📫 Kontakt
-<<<<<<< HEAD
-=======
-- Website: [timonschroth.de](https://timonschroth.de)
-- Mail: [hey@timonschroth.de](mailto:hey@timonschroth.de)
-- Instagram [timon.sh](https://instagram.com/timon.sh)
-
-<br>
->>>>>>> beb5f112aa2b73625aa2a3f8bc70e27e693f7cfb
 
 <div align="center">
   <a href="mailto:hey@timonschroth.de"><img src="https://img.shields.io/badge/Email-hey@timonschroth.de-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
