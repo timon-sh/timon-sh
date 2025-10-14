@@ -27,6 +27,157 @@
     --clr-buymeacoffee: #ffde13;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-background: #0d1117;
+        --clr-background-full-transparent: #0d111700;
+        --clr-font: #e6edf3;
+        --clr-surface-light: #21262d;
+        --clr-surface-medium: #30363d;
+        --clr-surface-dark: #30363d;
+        --clr-surface-dark-transparent: rgba(48, 54, 61, 0.85);
+        --clr-highlight: #30363d;
+        --clr-bold: #ffffff;
+        --clr-font-strong: #ffffff;
+        --clr-base: #21262d;
+        --clr-base-transparent: rgba(33, 38, 45, 0.6);
+        --clr-light-shadow: rgba(0, 0, 0, 0.3);
+        --clr-primary: #2a45f8;
+        --clr-secondary: #3fb950;
+        --clr-tertiary: #f78166;
+        --clr-webbytestudio: #2a45f8;
+        --clr-webbytestudio-deviation: rgba(42, 69, 248, 0.8);
+        --clr-dunkle-geschichten: #31bacd;
+        --clr-buymeacoffee: #ffd60a;
+    }
+
+    /* Navigation fixes for dark mode */
+    #navigation>button {
+        border: 1px solid rgba(48, 54, 61, 0.6) !important;
+        background: var(--clr-surface-dark) !important;
+        color: var(--clr-font) !important;
+        box-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.3),
+            inset 0 1px 0 rgba(48, 54, 61, 0.4),
+            0 2px 6px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    #navigation>button:hover {
+        background: var(--clr-highlight) !important;
+        box-shadow:
+            0 2px 4px rgba(0, 0, 0, 0.4),
+            inset 0 1px 0 rgba(48, 54, 61, 0.5),
+            0 4px 8px rgba(0, 0, 0, 0.6) !important;
+    }
+
+    /* Card/surface elements */
+    .card, .surface {
+        background-color: var(--clr-surface-dark) !important;
+        border: 1px solid var(--clr-highlight) !important;
+    }
+
+    /* Any white backgrounds */
+    [style*="background: white"], [style*="background-color: white"], [style*="background: #fff"], [style*="background-color: #fff"] {
+        background: var(--clr-surface-dark) !important;
+    }
+
+    /* Any black text on light backgrounds */
+    [style*="color: black"], [style*="color: #000"] {
+        color: var(--clr-font-strong) !important;
+    }
+
+    /* Fix hardcoded box-shadow colors */
+    #introduction>div:first-of-type img {
+        box-shadow: 1.5px 3px 6px var(--clr-tertiary) !important;
+    }
+
+    /* Forms and inputs */
+    input, textarea, select {
+        background-color: var(--clr-surface-dark) !important;
+        color: var(--clr-font-strong) !important;
+        border: 1px solid var(--clr-highlight) !important;
+    }
+
+    /* Links that might be hard to see */
+    a {
+        color: var(--clr-primary) !important;
+    }
+
+    a:hover {
+        color: var(--clr-secondary) !important;
+    }
+
+    /* Any sections or containers */
+    section, .container, .content {
+        background-color: transparent !important;
+    }
+
+    /* Project buttons - make them clearly visible */
+    #project-overview .dunkle-geschichten>div>a {
+        background-color: var(--clr-dunkle-geschichten) !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+    }
+
+    #project-overview .dunkle-geschichten>div>a:hover {
+        background-color: var(--clr-primary) !important;
+        color: #ffffff !important;
+    }
+
+    /* WebByte Studio project buttons */
+    #project-overview>section>article>div>a {
+        background-color: var(--clr-webbytestudio) !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+    }
+
+    #project-overview>section>article>div>a:hover {
+        background-color: var(--clr-primary) !important;
+        color: #ffffff !important;
+    }
+
+    /* All primary buttons should have high contrast */
+    .primary-btn {
+        background-color: var(--clr-primary) !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+    }
+
+    .primary-btn:hover {
+        background-color: var(--clr-secondary) !important;
+        color: #ffffff !important;
+    }
+
+    /* Secondary buttons should also be visible */
+    .secondary-btn {
+        background-color: var(--clr-surface-dark) !important;
+        color: var(--clr-font-strong) !important;
+        border: 2px solid var(--clr-primary) !important;
+        font-weight: 600 !important;
+    }
+
+    .secondary-btn:hover {
+        background-color: var(--clr-primary) !important;
+        color: #ffffff !important;
+        border-color: var(--clr-primary) !important;
+    }
+
+    /* Navigation text should be bright */
+    #navigation, #navigation * {
+        color: var(--clr-font-strong) !important;
+    }
+
+    /* All headings should be bright */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--clr-font-strong) !important;
+    }
+
+    /* All paragraphs should be readable */
+    p {
+        color: var(--clr-font) !important;
+    }
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -771,4 +922,45 @@ button {
     right: 2rem;
     text-decoration: none;
     color: var(--clr-base)
+}
+
+/* Dark Mode SVG Filter - nur für MPGG Logo */
+@media (prefers-color-scheme: dark) {
+    img[src*="mpgg.svg"] {
+        filter: brightness(0) invert(1);
+    }
+    
+    /* Memory Shift Button - bessere Lesbarkeit im Dark Mode */
+    /* Memory Shift Button - dunklerer Ton als WebByteStudio */
+    #project-overview>section.mshift>div>a {
+        background-color: #1a2f8f !important;
+        color: #ffffff !important;
+    }
+    
+    /* Support Bereich - schwarzer Text für bessere Lesbarkeit */
+    #support>h1 {
+        color: #000000 !important;
+    }
+    
+    #support>p {
+        color: #000000 !important;
+    }
+    
+    /* Footer - heller Text */
+    #footer>span {
+        color: #ffffff !important;
+    }
+    
+    #footer>a {
+        color: #ffffff !important;
+    }
+    
+    /* Close Button - dunkler mit weißer Schrift */
+    #large-image-preview>button {
+        background-color: #1a1a1a !important;
+        color: #ffffff !important;
+    }
+}
+    
+
 }
