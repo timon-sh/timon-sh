@@ -44,6 +44,14 @@ Unter dem Branding <b>WebByte Studio</b> entwickle ich moderne Websites und PWAs
 ---
 
 ## 📫 Kontakt
+<<<<<<< HEAD
+=======
+- Website: [timonschroth.de](https://timonschroth.de)
+- Mail: [hey@timonschroth.de](mailto:hey@timonschroth.de)
+- Instagram [timon.sh](https://instagram.com/timon.sh)
+
+<br>
+>>>>>>> beb5f112aa2b73625aa2a3f8bc70e27e693f7cfb
 
 <div align="center">
   <a href="mailto:hey@timonschroth.de"><img src="https://img.shields.io/badge/Email-hey@timonschroth.de-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
