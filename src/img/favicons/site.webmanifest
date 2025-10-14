@@ -1,6 +1,6 @@
 {
-  "name": "Timon Schroth · WebByte Studio",
-  "short_name": "Timon Schroth",
+  "name": "Timon Schroth",
+  "short_name": "Timon",
   "icons": [
     {
       "src": "/./src/img/favicons/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "0582FF",
-  "background_color": "#f6f6f6",
+  "theme_color": "#2a45f8",
+  "background_color": "#02392b",
   "display": "standalone"
 }
