@@ -27,8 +27,3 @@ Unter dem Branding <b>WebByte Studio</b> entwickle ich moderne Websites und PWAs
   <li><b>Illustrationswettbewerb Dunkle Geschichten</b> – Website für einen kreativen Illustrationswettbewerb von Magnus Schroth. <a href="https://dunkle-geschichten-ms.netlify.app/?ref=timonschroth" target="_blank">🔗 Link</a></li>
   <li><b>Max-Planck-Gymnasium Göttingen</b> – Entwicklung einer App für Straßenumfragen zum ÖPNV, Memory Shift, sowie eine Website mit Informationen zu Marie Curie anlässlich eines Projektes.</li>
 </ul>
-
-<br><br>
-<div align="center" style="margin-top: 40px;">
-  <img src="https://timonschroth.de/src/img/webbytestudio.svg" width="200" height="80" alt="WebByte Studio Logo">
-</div>
